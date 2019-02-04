@@ -1,0 +1,14 @@
+Author: Haoxuan Yang
+Implementation:
+My framework is : 
+1. check if it is batch mode 
+2. take in the command line from file or from user (based on different modes) 
+3. tokenize the command line and save it 
+4. check if it is built-in function, and execute it
+5. loop again until meet some required conditions
+Any bugs:
+idk..
+How to run:
+1. go to the current directory and use "make" to create mysh.o executable file
+2. use "./mysh" or "./mysh examplebatch" to run the shell or read the commands in batch mode
+3. you will see the output in the console
